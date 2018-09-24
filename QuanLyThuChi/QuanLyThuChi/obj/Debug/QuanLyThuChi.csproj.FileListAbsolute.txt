@@ -1,0 +1,17 @@
+C:\Users\Thuy Duong\Documents\GitHub\QuanLyThuChi\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.exe.config
+C:\Users\Thuy Duong\Documents\GitHub\QuanLyThuChi\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.Form1.resources
+C:\Users\Thuy Duong\Documents\GitHub\QuanLyThuChi\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.Properties.Resources.resources
+C:\Users\Thuy Duong\Documents\GitHub\QuanLyThuChi\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.csproj.GenerateResource.Cache
+C:\Users\Thuy Duong\Documents\GitHub\QuanLyThuChi\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.exe
+C:\Users\Thuy Duong\Documents\GitHub\QuanLyThuChi\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.pdb
+C:\Users\Thuy Duong\Documents\GitHub\QuanLyThuChi\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.exe
+C:\Users\Thuy Duong\Documents\GitHub\QuanLyThuChi\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.pdb
+F:\Lap trinh Win nang cao\DoAnMonHoc\QuanLyThuChi-master\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.exe.config
+F:\Lap trinh Win nang cao\DoAnMonHoc\QuanLyThuChi-master\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.exe
+F:\Lap trinh Win nang cao\DoAnMonHoc\QuanLyThuChi-master\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.pdb
+F:\Lap trinh Win nang cao\DoAnMonHoc\QuanLyThuChi-master\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.exe
+F:\Lap trinh Win nang cao\DoAnMonHoc\QuanLyThuChi-master\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.pdb
+F:\Lap trinh Win nang cao\DoAnMonHoc\QuanLyThuChi-master\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.csprojResolveAssemblyReference.cache
+F:\Lap trinh Win nang cao\DoAnMonHoc\QuanLyThuChi-master\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.Form1.resources
+F:\Lap trinh Win nang cao\DoAnMonHoc\QuanLyThuChi-master\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.Properties.Resources.resources
+F:\Lap trinh Win nang cao\DoAnMonHoc\QuanLyThuChi-master\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.csproj.GenerateResource.Cache
