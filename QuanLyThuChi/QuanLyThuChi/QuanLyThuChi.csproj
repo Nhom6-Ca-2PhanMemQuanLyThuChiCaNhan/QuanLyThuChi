@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{281D477E-F544-4BA1-A9AB-C6D6929D91ED}</ProjectGuid>
+    <ProjectGuid>{ACC1E98C-0191-443B-BC5E-09E4F84E497B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>QuanLyThuChi</RootNamespace>
@@ -32,7 +32,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -50,19 +61,95 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginResult.cs" />
-    <Compile Include="mainForm.cs">
+    <Compile Include="frmDkKhoanChi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="mainForm.Designer.cs">
-      <DependentUpon>mainForm.cs</DependentUpon>
+    <Compile Include="frmDkKhoanChi.designer.cs">
+      <DependentUpon>frmDkKhoanChi.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_CauHinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_CauHinh.Designer.cs">
+      <DependentUpon>frm_CauHinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DangKyKhoanThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DangKyKhoanThu.designer.cs">
+      <DependentUpon>frm_DangKyKhoanThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_girddkkhoanchi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_girddkkhoanchi.designer.cs">
+      <DependentUpon>frm_girddkkhoanchi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_LapPhieuThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_LapPhieuThu.designer.cs">
+      <DependentUpon>frm_LapPhieuThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PhieuThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PhieuThu.designer.cs">
+      <DependentUpon>frm_PhieuThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginResult.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Page_DKkhoanthu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PowerPacks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QL_NguoiDung.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="XtraForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XtraForm1.Designer.cs">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmDkKhoanChi.resx">
+      <DependentUpon>frmDkKhoanChi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_CauHinh.resx">
+      <DependentUpon>frm_CauHinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DangKyKhoanThu.resx">
+      <DependentUpon>frm_DangKyKhoanThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_girddkkhoanchi.resx">
+      <DependentUpon>frm_girddkkhoanchi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_LapPhieuThu.resx">
+      <DependentUpon>frm_LapPhieuThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PhieuThu.resx">
+      <DependentUpon>frm_PhieuThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Page_DKkhoanthu.resx">
+      <DependentUpon>Page_DKkhoanthu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -71,7 +158,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="XtraForm1.resx">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -84,6 +175,160 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\options_settings_folder_tools-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User-Group-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secrecy-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Log-Off-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notes-2-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollar-folder-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phanquyen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saoluu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\huongdansudung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dsthuchi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baocao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dkitiente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dkitaikhoan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dkithuchi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dkithu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\039_time_clock_process_clouds_work-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\039_time_clock_process_clouds_work-512 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard_1-8-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard_1-10-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Finance_saving-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Party_Newyears_Calender-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\010_x-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\income.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expenses-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nguoisudung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9_avatar-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Door-Exit-Sign-Out-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-15-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Information_31216.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\05_info-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line_Icons_Misc_NEW-22-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money-Bag-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money-Bag-512 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-bag-512 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coin-Hand-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\07_plus-128.png" />
+    <None Include="Resources\062-512.png" />
+    <None Include="Resources\010_x-5121.png" />
+    <None Include="Resources\010_x-5122.png" />
+    <None Include="Resources\010_trash-2-128.png" />
+    <None Include="Resources\Button-Add-icon.png" />
+    <None Include="Resources\Button-Close-icon.png" />
+    <None Include="Resources\Button-Log-Off-icon %281%29.png" />
+    <None Include="Resources\Clear-icon.png" />
+    <None Include="Resources\Close-2-icon.png" />
+    <Content Include="Resources\delete.png" />
+    <None Include="Resources\search1.png" />
+    <None Include="Resources\them1.png" />
+    <None Include="Resources\Technical_Support-512 %281%291.png" />
+    <None Include="Resources\delete1.png" />
+    <None Include="Resources\huy.png" />
+    <None Include="Resources\save1.png" />
+    <None Include="Resources\save2.png" />
+    <None Include="Resources\save_.png" />
+    <None Include="Resources\error-512.png" />
+    <None Include="Resources\edit-validated-icon.png" />
+    <None Include="Resources\Save-as-icon %281%29.png" />
+    <None Include="Resources\search-minus-icon.png" />
+    <Content Include="Resources\search.png" />
+    <Content Include="Resources\Technical_Support-512 %281%29.png" />
+    <Content Include="Resources\them.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -25,14 +25,14 @@ namespace QuanLyThuChi.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-EUCOBRP\\SQLEXPRESS;Initial Catalog=QLTC;User ID=sa;Password=s" +
-            "a2012")]
-        public string KetNoi {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-7GUUUSA\\SQLEXPRESS;Initial Catalog=QLTC;User ID=sa;Password=0" +
+            "1204495250")]
+        public string ConnectStr {
             get {
-                return ((string)(this["KetNoi"]));
+                return ((string)(this["ConnectStr"]));
             }
             set {
-                this["KetNoi"] = value;
+                this["ConnectStr"] = value;
             }
         }
     }
